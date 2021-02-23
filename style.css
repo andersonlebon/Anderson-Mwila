@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(134, 130, 134, 0.815);
+
+}
+img{
+    width: 500px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+
+}
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#nav-bar ul li{
+    padding: 10px 30px;
+
+}
+a{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+}
+#prices{
+    margin-bottom: 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 30px; */
+
+}
+#prices div{
+    width: 30%;
+    border: 2px solid black;
+    margin: 0 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+
+}
+#email {
+    width: 300px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+#submit {
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-color: tomato;
+
+
+}

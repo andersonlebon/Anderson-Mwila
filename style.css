@@ -10,20 +10,28 @@ body{
 
 }
 img{
-    width: 500px;
+    width: 300px;
+}
+
+.clearance {
+    margin-top: 100px;
 }
 #header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 30px;
-
+    font-size: 18px;
 }
 #nav-bar ul{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap;
 }
 #nav-bar ul li{
     padding: 10px 30px;
@@ -43,11 +51,43 @@ a{
     /* font-size: 30px; */
 
 }
+
 #prices div{
-    width: 30%;
+    width: 200px;
     border: 2px solid black;
     margin: 0 20px;
+    text-align: center;
 }
+
+#prices div h1{
+    font-size: 20px;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+#prices div ul li {
+    list-style: none;
+    
+}
+#prices div ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    padding: 10px 20px;
+    margin: 16px 0;
+    background-color: tomato;
+    border: none
+}
+
+#video{
+    width: 50%;
+    background-color: wheat;
+    margin: 30px 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -63,8 +103,28 @@ form {
 }
 #submit {
     padding: 8px 35px;
-    border-radius: 5px;
     background-color: tomato;
+    border: none;
+}
+#container1{
+    width: 70%;
+}
 
+.dbr {
+    border-radius: 5px;
+}
 
+@media (max-width: 500px) {
+    .clearance {
+        margin-top: 250px;
+        text-align: center;
+    }
+
+    #prices {
+        flex-direction: column;
+    }
+
+    #prices div{
+        margin: 20px 0;
+    }
 }
